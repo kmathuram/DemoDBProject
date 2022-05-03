@@ -3,7 +3,7 @@
     [Name]   VARCHAR (10) NOT NULL,
     [Age]    SMALLINT     NULL,
     [Salary] DECIMAL (18) NULL,
-    [active] BIT          NULL,
+    [active] CHAR(10)          NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
